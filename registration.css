@@ -1,0 +1,44 @@
+body{
+    background: url(bluebg.png);
+    background-size: cover;
+    color:white;
+}
+h2{
+    color: white;
+}
+.col-sm-6{
+    padding-bottom: 15px;
+}
+  legend {
+    overflow: hidden;
+    text-align: center;
+  }  
+  legend:before,
+  legend:after {
+    background-color: rgb(40, 167, 69);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }  
+  legend:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }  
+  legend:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+a{
+  color: rgb(40, 167, 69);
+}
+.row{
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+ .form-group{
+  padding-top: 25px;
+  padding-bottom: 0px;
+} 

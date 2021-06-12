@@ -1,0 +1,91 @@
+<!--
+  Abdalla Aden 
+  021-720-057
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+
+    <meta name="description" content="Registration Form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Water CSS theme, see https://watercss.kognise.dev/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css"  />
+
+    
+
+    <!-- site's styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="registration.css">
+  </head>
+
+  <body>
+    <div class="d-flex justify-content-center">
+    <header>
+      
+      <nav>
+       <a href="index.html">  <img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-contact-3.png"width="200" height="114" alt="Weblogo"></a>
+      </nav>    
+      </header>
+
+    <main>
+     
+        <div class="signup-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+            <h2>Register</h2>
+            
+            <legend class="col-form-label col-sm-12 pt-0">Personal Information</legend>  
+            <div class="form-group">
+              <div class="row">
+                <div class="col-sm-6"><input type="text" class="form-control" name="firstName" placeholder="First Name" required="required"></div>
+                <div class="col-sm-6"><input type="text" class="form-control" name="lastName" placeholder="Last Name" required="required"></div>
+                <div class="col-sm-6"><input type="email" class="form-control" name="email" placeholder="Email" required="required"></div>
+                <div class="col-sm-6"><input type="tel" class="form-control" name="phoneNum" placeholder="555-555-5555" id="phoneNum"></div>
+              </div>
+            </div>
+            
+            <legend class="col-form-label col-sm-12 pt-0">Billing Address</legend>  
+            <div class="form-group">
+             <div class="row">
+              <div class="col-sm-12"><input type="text" class="form-control" name="password" placeholder="Company Name (Optional)" required></div>
+             </div>
+             <div class="row">
+              <div class="col-sm-12"><input type="text" class="form-control" name="confirmPassword" placeholder="Street Address" required></div>
+             </div>   
+             <div class="row">
+              <div class="col-sm-12"><input type="text" class="form-control" name="confirmPassword" placeholder="Street Address 2" required></div>
+             </div>  
+            </div>     
+            
+            
+            
+            
+            
+            <legend class="col-form-label col-sm-12 pt-0">Account Security</legend>  
+            <div class="form-group">
+             <div class="row">
+              <div class="col-sm-6"><input type="password" class="form-control" name="password" placeholder="Password" required="required"></div>
+              <div class="col-sm-6"><input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password" required="required"></div>
+             </div>   
+            </div>     
+               
+               
+               
+                <div class="form-group">
+              <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+            </div>
+            <div class="form-group">
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+                </div>
+            </form>
+          <div class="text-center">Already have an account? <a href="#">Sign in</a></div>
+        </div>
+        </div>
+        </body>
+    <!-- Your custom form validation code goes here
+    <script src=""></script>-->
+    
+  
+</html>
